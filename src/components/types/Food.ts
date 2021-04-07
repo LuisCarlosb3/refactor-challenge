@@ -6,3 +6,9 @@ export interface Food {
   price: number
   available: boolean
 }
+export interface AddNewFood {
+  image: string
+  name: string
+  price: string
+  description: string
+}
